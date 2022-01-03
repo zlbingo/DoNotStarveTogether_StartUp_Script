@@ -5,8 +5,8 @@ dividing="======================================================================
 commandPath="steamcmd"
 commandFile="./steamcmd.sh"
 
-gamesPath="Steam/steamapps/common/Don't Starve Together Dedicated Server/bin64"
-gamesFile="./dontstarve_dedicated_server_nullrenderer_x64"
+gamesPath="Steam/steamapps/common/Don't Starve Together Dedicated Server/bin"
+gamesFile="./dontstarve_dedicated_server_nullrenderer"
 #-------------------------------------------------------------------------------------------
 function FilesDelete()
 {
