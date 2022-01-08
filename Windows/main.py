@@ -81,8 +81,8 @@ def add_mod_id_2_setup_lua(save_path, server_path):
 def run_game(game_path):
     # todo 加判断是否是64位
     os.chdir(game_path)
-    os.system(f"start cmd.exe @cmd /k dontstarve_dedicated_server_nullrenderer_x64.exe -console -cluster {CLUSTER_NAME} -shard Master")
-    os.system(f"start cmd.exe @cmd /k dontstarve_dedicated_server_nullrenderer_x64.exe -console -cluster {CLUSTER_NAME} -shard Caves")
+    os.system(f"start cmd.exe @cmd /k dontstarve_dedicated_server_nullrenderer.exe -console -cluster {CLUSTER_NAME} -shard Master")
+    os.system(f"start cmd.exe @cmd /k dontstarve_dedicated_server_nullrenderer.exe -console -cluster {CLUSTER_NAME} -shard Caves")
 
 
 if __name__ == "__main__":
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     # 选择相应的文件夹
 
     # exe_path, sever_mod_path, cluster_path = set_dst_path()
-    exe_path = r"D:\Program\Steam\steamapps\common\Don't Starve Together Dedicated Server\bin64"
+    exe_path = r"D:\Program\Steam\steamapps\common\Don't Starve Together Dedicated Server\bin"
     sever_mod_path = r"D:\Program\Steam\steamapps\common\Don't Starve Together Dedicated Server\mods"
     cluster_path = f"C:\\Users\\zongl\\Documents\\Klei\\DoNotStarveTogether\\{CLUSTER_NAME}"
 
